@@ -20,11 +20,11 @@
    
    <!-- LOCALE AND RESOURCE BUNDLE RELATED (Property files)...    -->
    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
-		<property name="basenames">
+	<property name="basenames">
             <list>
                 <value>classpath:com/americanexpress/resources/propertyFileName</value>
-			   </list>
-      </property>
-	</bean>
+	    </list>
+        </property>
+   </bean>
 
 </beans>
